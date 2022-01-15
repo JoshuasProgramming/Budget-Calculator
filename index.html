@@ -1,0 +1,105 @@
+<!--
+    Budget Calculator HTML code
+    (author Joshua Thomas)
+    date 15/01/2022
+    version:1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Budget Calculator</title>
+</head>
+<body>
+    <div class="main-container">
+        <input class="income-output" id="output" placeholder="Left Over Amount" disabled>
+        <h3 class="header-text-1">Monthly Budget</h3>
+        <input class="income-input" id="input" placeholder="Enter income" autocomplete="off" maxlength="6">
+        <button class="btn-" id="btn">Submit</button>
+
+        <div class="container-1">
+            <h3>Total Expenses For Food</h3>
+            <hr>
+            <label for="sum1">Sum: </label>
+            <input class="sum-1" id="sum1" disabled>
+
+            <label for="name1">Name: </label>
+            <input class="name-1" id="name1">
+
+            <label for="price1">Price: </label>
+            <input class="price-1" id="price1" maxlength="4">
+
+            <button class="add-1" id="add1">add</button>
+
+            <p id="output_info1"></p>
+
+        </div>
+        <div class="container-2">
+            <h3>Total Expenses For Restaurants</h3>
+            <hr>
+            <label for="sum2">Sum: </label>
+            <input class="sum-2" id="sum2" disabled>
+
+            <label for="name2">Name: </label>
+            <input class="name-2" id="name2">
+
+            <label for="price2">Price: </label>
+            <input class="price-2" id="price2" maxlength="4">
+
+            <button class="add-2" id="add2">add</button>
+
+            <p id="output_info2"></p>
+        </div>
+        <div class="container-3">
+            <h3>Total Expenses For Emergencies</h3>
+            <hr>
+            <label for="sum3">Sum: </label>
+            <input class="sum-3" id="sum3" disabled>
+
+            <label for="name3">Name: </label>
+            <input class="name-3" id="name3">
+
+            <label for="price3">Price: </label>
+            <input class="price-3" id="price3" maxlength="4">
+
+            <button class="add-3" id="add3">add</button>
+            <p id="output_info3"></p>
+        </div>
+        <div class="container-4">
+            <h3>Total Expenses For Shopping</h3>
+            <hr>
+            <label for="sum4">Sum: </label>
+            <input class="sum-4" id="sum4" disabled>
+
+            <label for="name4">Name: </label>
+            <input class="name-4" id="name4">
+
+            <label for="price4">Price: </label>
+            <input class="price-4" id="price4" maxlength="4">
+
+            <button class="add-4" id="add4">add</button>
+            <p id="output_info4"></p>
+        </div>
+        <div class="container-5">
+            <h3>Total Expenses Traveling</h3>
+            <hr>
+            <label for="sum5">Sum: </label>
+            <input class="sum-5" id="sum5" disabled>
+
+            <label for="name5">Name: </label>
+            <input class="name-5" id="name5">
+
+            <label for="price5">Price: </label>
+            <input class="price-5" id="price5" maxlength="4">
+
+            <button class="add-5" id="add5">add</button>
+            <p id="output_info5"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

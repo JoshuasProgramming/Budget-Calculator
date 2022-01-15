@@ -1,0 +1,85 @@
+/**
+ * Budget Calculator CSS code
+ * (author Joshua Thomas)
+ * date 15/01/2022
+ * version:1.0
+ */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.income-output{
+    width:135px auto;
+    height:60px;
+    text-align:center;
+    font-size:30px;
+}
+
+.btn-{
+    width:50%;
+    margin: 10px auto;
+    height:45px;
+    color:white;
+    background-color: darkslategrey;
+    font-size:30px;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    width:1290px;
+    height:350px;
+    border:3px solid black;
+    margin:15px;
+    text-align:center;
+    font-size:30px;
+}
+
+.sum-1, .sum-2, .sum-3, .sum-4, .sum-5{
+    width:240px;
+    height:30px;
+    font-size:30px;
+}
+
+.name-1, .name-2, .name-3, .name-4, .name-5{
+    width:240px;
+    height:45px;
+    font-size:30px;
+}
+
+.price-1, .price-2, .price-3, .price-4, .price-5{
+    width:240px;
+    height:45px;
+    font-size:30px;
+}
+
+.add-1, .add-2, .add-3, .add-4, .add-5{
+    font-size:25px;
+    width:80px;
+    color:white;
+    background-color: darkslategrey;
+}
+
+.del-btn1, .del-btn2, .del-btn3, .del-btn4, .del-btn5{
+    font-size:20px;
+    width:75px;
+    color:white;
+    background-color: darkslategrey;
+}
+
+.main-container{
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.income-input{
+    font-size:35px;
+    outline:none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.header-text-1{
+    text-align:center;
+    font-size:55px;
+}
